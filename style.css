@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    font-family: 'Inter' , 'Comfortaa';
+}
+
+
+section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+#main{
+    background-image: url('./img/bgMAIN.png');
+}
+
+#about{
+    background-image: url('./img/bgABOUT.png');
+}
+
+#skills{
+    background-image: url('./img/bgSKILLS.png');
+}
+
+#works{
+    background-image: url('./img/bgWORKS.png');
+}
+#comments{
+    background-image: url('./img/bgCOMMENTS.png');
+}
