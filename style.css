@@ -30,3 +30,63 @@ section{
 #comments{
     background-image: url('./img/bgCOMMENTS.png');
 }
+
+
+.main-block, .about, .skills ,.works, .comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.main-block{
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    width: 849px;
+    height: 223px;
+    background-image: url(img/form1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.main-title{
+    color: #2B2D35;
+    font-size: 80px;
+    padding-top: 67px;
+}
+
+.main-subtitle{
+    color: #2B2D35;
+    font-size: 20px;
+    font-family: 'Confortaa';
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    border: black solid 2px;
+    background-color: #BBFF2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow:5px 5px 0px black;
+}
+
+.button a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: ease-in-out all 0.3s;
+}
+
+.button a:hover{
+    font-weight: 900;
+}
