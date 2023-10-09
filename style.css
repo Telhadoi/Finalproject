@@ -45,6 +45,7 @@ section{
 }
 
 .main-content{
+    z-index: 2;
     width: 849px;
     height: 223px;
     background-image: url(img/form1.png);
@@ -89,4 +90,15 @@ section{
 
 .button a:hover{
     font-weight: 900;
+}
+
+.planet{
+    z-index: 1;
+    background-image: url(img/planet.png);
+    background-repeat: no-repeat;
+    width: 405px;
+    height: 330px;
+    transform: rotate(-176deg);
+    position: absolute;
+    right: 240px;
 }
