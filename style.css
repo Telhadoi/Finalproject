@@ -93,7 +93,7 @@ section{
 }
 
 .planet{
-    z-index: 1;
+    z-index:2;
     background-image: url(img/planet.png);
     background-repeat: no-repeat;
     width: 405px;
@@ -101,4 +101,25 @@ section{
     transform: rotate(-176deg);
     position: absolute;
     right: 240px;
+}
+
+.moving-planet{
+    background-image: url(img/moving-planet.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 230px;
+    transform: rotate(-15deg);
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    animation-name: identifier;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+@keyframes identifier {
+    from{transform: translateY(0px);}
+    to{transform: translateY(70px);}
+    
 }
