@@ -4,9 +4,6 @@
     scroll-behavior: smooth;
 }
 
-.active{
-    background-color: #BBFF2C;
-}
 
 
 section{
@@ -56,6 +53,7 @@ nav{
     align-items: center;
     margin-right: 20px;
     transition: all ease-in-out 0.5s;
+    
 }
 
 .nav-link:hover{
@@ -68,8 +66,12 @@ nav{
     font-size: 80px;
     padding-left: 50px;
     transition: all ease-in-out 0.5s;
+
 }
 
+.active{
+    background-color: #BBFF2C;
+}
 .logo:hover{
     font-size: 100px;
     text-shadow: 5px 5px 5px black;
@@ -408,3 +410,4 @@ nav{
 .footer-right a{
     padding: 10px;
 }
+
