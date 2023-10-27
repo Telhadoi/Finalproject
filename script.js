@@ -52,3 +52,5 @@ menu.addEventListener('click', function(event) {
         linkTarget.classList.add('active')
     }
 });
+
+const swiper = new Swiper('.mySwiper', {});
