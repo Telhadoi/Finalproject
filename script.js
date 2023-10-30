@@ -18,8 +18,6 @@ window.onscroll = function(){
     else{
         classLink = '.main-link';
     }
-
-
     let activeBtn = document.querySelector('.active');
     let newActiveBtn = document.querySelector(classLink);
     
@@ -30,17 +28,6 @@ window.onscroll = function(){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 let menu = document.querySelector('.fixed-menu');
 
 menu.addEventListener('click', function(event) {
@@ -49,8 +36,19 @@ menu.addEventListener('click', function(event) {
 
     if (linkTarget.classList.contains('nav-link')) {
         linkActive.classList.remove('active');
-        linkTarget.classList.add('active')
+        linkTarget.classList.add('active');
+        let mobile= document.querySelector('.mobile-menu');
+        if(!mobile.classList.contains('hide')){
+            mobile.classList.add('hide');
+        }
     }
 });
 
-const swiper = new Swiper('.mySwiper', {});
+
+
+document.querySelector('.mobile-button').addEventListener('click', 
+function(event) 
+{
+    document.querySelector('.mobile-menu').classList.toggle('hide');
+    
+});

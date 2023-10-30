@@ -74,6 +74,45 @@ nav{
 
 }
 
+
+.mobile-menu{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: #200153;
+    min-height: 100vh;
+}
+
+.mobile-nav{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-nav-links{
+    margin-bottom: 30px;
+    width: 210px;
+    height: 50px;
+}
+
+
+
+.mobile-button{
+    display: none;
+    padding-top: 10px;
+    width: 40px;
+    position: absolute;
+    right: 20px;
+}
+
+.hide{
+    display: none;
+
+}
+
 .active{
     background-color: #BBFF2C;
     box-shadow: 5px 5px 5px black;
@@ -443,9 +482,9 @@ nav{
 
 
 
-@media (max-width:1000px){
+@media (max-width:700px){
     body{
-        width: 420px;
+        width: 415px;
     }
     
     .nav-links {
@@ -465,7 +504,7 @@ nav{
 }
 
 
-@media (max-width:1000px){
+@media (max-width:700px){
 
     .main-block{
         display: flex;
@@ -489,7 +528,7 @@ nav{
 }
 
 
-@media (max-width:1000px){
+@media (max-width:700px){
     .about-block{
         flex-direction: column;
         margin-top: 20px;
@@ -520,7 +559,7 @@ nav{
 
 
 
-@media (max-width:1000px){
+@media (max-width:700px){
     .skills-card{
         margin: 20px;
         padding-left: 10px;
@@ -543,21 +582,23 @@ nav{
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     .works-block{
+        display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 20px 0;
     }
 
     .works-block img{
-        margin: 20px 0;
+        padding-top: 20px;
         width: 80%;
         box-shadow: none;
     }
 }
 
 
-@media (max-width: 1000px){
+@media (max-width: 700px){
     .comments-block{
         flex-direction: column;
         align-items: center;
@@ -576,7 +617,7 @@ nav{
     }
 }
 
-@media (max-width:1000px) {
+@media (max-width:700px) {
     footer{
         height: 100px;
         flex-direction: column;
@@ -586,6 +627,29 @@ nav{
 
     .footer-right{
         align-items: center;
+    }
+    
+}
+
+
+@media (max-width: 700px) {
+    .button{
+        width: 150px;
+        height: 40px;
+        z-index: 2;
+
+    }
+
+    .button a{
+        font-size: 15px;
+    }
+    
+}
+
+
+@media (max-width: 700px) {
+    .mobile-button{
+        display: block;
     }
     
 }
