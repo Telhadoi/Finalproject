@@ -428,32 +428,17 @@ nav{
     body{
         width: 600px;
     }
-
+    
     .nav-links {
         display: none;
     };
-
+    
     .logo{
         font-size: 40px;
         padding-left: 20px;
         padding-top: 10px;
     };
-
-    .main-content{
-        max-width: 320px;
-
-    }
-
-    .main-title{
-        padding-top: 40px;
-        font-size: 30px;
-        
-    }
-
-    .planet , .moving-planet ,
-    .cloud{
-        display: none;
-    }
+    
 
     .title{
         font-size: 50px;
@@ -545,5 +530,29 @@ nav{
 
     .footer-right{
         align-items: center;
+    }
+}
+
+
+@media (max-width:1000px){
+
+    .main-block{
+        display: flex;
+        align-items: center;
+    }
+    
+    .main-title{
+        padding-top: 60px;
+        font-size: 30px;
+    }
+
+    .main-content{
+        width: 500px;
+        height: 200px;
+    }
+
+    .planet , .moving-planet ,
+    .cloud{
+        display: none;
     }
 }
