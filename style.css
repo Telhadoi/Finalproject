@@ -424,9 +424,28 @@ nav{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1000px){
     body{
-        width: 600px;
+        width: 420px;
     }
     
     .nav-links {
@@ -439,12 +458,38 @@ nav{
         padding-top: 10px;
     };
     
-
     .title{
         font-size: 50px;
         padding-top: 30px;
     }
+}
 
+
+@media (max-width:1000px){
+
+    .main-block{
+        display: flex;
+        align-items: center;
+    }
+    
+    .main-title{
+        padding-top: 80px;
+        font-size: 30px;
+    }
+
+    .main-content{
+        width: 300px;
+        height: 200px;
+    }
+
+    .planet , .moving-planet ,
+    .cloud{
+        display: none;
+    }
+}
+
+
+@media (max-width:1000px){
     .about-block{
         flex-direction: column;
         margin-top: 20px;
@@ -471,7 +516,11 @@ nav{
     .about-title{
         font-size: 18px;
     }
+}
 
+
+
+@media (max-width:1000px){
     .skills-card{
         margin: 20px;
         padding-left: 10px;
@@ -492,7 +541,9 @@ nav{
         position: absolute;
         bottom: 100px;
     }
+}
 
+@media (max-width: 1000px) {
     .works-block{
         flex-direction: column;
         padding: 20px 0;
@@ -503,7 +554,10 @@ nav{
         width: 80%;
         box-shadow: none;
     }
+}
 
+
+@media (max-width: 1000px){
     .comments-block{
         flex-direction: column;
         align-items: center;
@@ -520,7 +574,9 @@ nav{
         font-size: 15px;
         max-width: 290px;
     }
+}
 
+@media (max-width:1000px) {
     footer{
         height: 100px;
         flex-direction: column;
@@ -531,28 +587,8 @@ nav{
     .footer-right{
         align-items: center;
     }
-}
-
-
-@media (max-width:1000px){
-
-    .main-block{
-        display: flex;
-        align-items: center;
-    }
     
-    .main-title{
-        padding-top: 60px;
-        font-size: 30px;
-    }
-
-    .main-content{
-        width: 500px;
-        height: 200px;
-    }
-
-    .planet , .moving-planet ,
-    .cloud{
-        display: none;
-    }
 }
+
+
+
