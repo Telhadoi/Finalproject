@@ -50,5 +50,6 @@ document.querySelector('.mobile-button').addEventListener('click',
 function(event) 
 {
     document.querySelector('.mobile-menu').classList.toggle('hide');
-    
+    document.querySelector('.mobile-button').classList.toggle('img1');
+    document.querySelector('.mobile-button').classList.toggle('img2');
 });
