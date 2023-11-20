@@ -6,6 +6,12 @@
 
 
 
+.off-scroll{
+    overflow: hidden;
+}
+
+
+
 
 
 
@@ -120,7 +126,7 @@ nav{
 }
 
 .img2{
-    background-image: url('img/js.png');
+    background-image: url('img/kissclipart-close-icon-cross-icon-delete-icon-873686c9a26fc318.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
